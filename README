@@ -1,34 +1,21 @@
-# Lisa Nandy Ministerial Code Complaint Journey
+# Lisa Nandy Ministerial Code Flowchart
 
-## Flowchart
+## Diagram
 
 ```mermaid
 flowchart TD
-  A[Complaint to PM Starmer<br/>cc MP<br/>Oct 2025 events] --> B{PM assesses}
+  A[Complaint to PM<br/>Individual] --> B{PM assesses}
   B -->|Yes| C[Adviser investigates]
-  B -->|No Fail| D[Escalations]
+  B -->|No| D[Escalations]
   C --> E{Breach?}
-  E -->|Yes Success| F[Sanctions]
-  E -->|No Fail| G[Close]
+  E -->|Yes| F[Sanctions]
+  E -->|No| G[Close]
   F --> H[Monitor]
-  D --> I[Standards Committee<br/>Individual]
-  D --> J[CPS Private Prosecution]
+  D --> I[Standards Committee]
+  D --> J[CPS Prosecution]
   D --> K[UN/ECtHR]
   G --> I
   G --> J
   G --> K
   H --> I
-  H --> L[Media loop]
-  I --> M{Action?}
-  M -->|Yes| N[Pressure]
-  M -->|No| O[Further]
-  J --> P{Prosecute?}
-  P -->|Yes| Q[Court]
-  P -->|No| O
-  K --> R{Admissible?}
-  R -->|Yes| S[Judgment]
-  R -->|No| O
-  N --> L
-  Q --> H
-  S --> H
-  O --> H
+  H --> L[Media pressure]
