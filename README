@@ -1,32 +1,32 @@
-# Ministerial Code Complaint: Lisa Nandy Breaches
+# Lisa Nandy Ministerial Code Complaint Journey
 
-## Journey Flowchart
+## Flowchart
 
 ```mermaid
 flowchart TD
-  A[Complaint to PM Starmer<br/>cc MP<br/>20 Oct 2025 events] --> B{PM assesses referral}
-  B -->|Refer Yes| C[Independent Adviser investigates<br/>Code breaches 1.1/2.4/3/2.1]
-  B -->|No/Fail| D[Individual escalations]
-  C --> E{Breach found?}
-  E -->|Yes Success| F[PM sanctions<br/>Apology/remedy/resignation]
-  E -->|No Fail| G[Close primary path]
-  F --> H[Monitor + optional next]
-  D --> I[Optional Advisory<br/>Standards Committee<br/>Individual submit gov.uk]
-  D --> J[Private prosecution<br/>CPS Perjury/Misconduct<br/>Solicitor/evidence]
-  D --> K[International<br/>UN Rapporteur/ECtHR/ICC]
+  A[Complaint to PM Starmer<br/>cc MP<br/>Oct 2025 events] --> B{PM assesses}
+  B -->|Yes| C[Adviser investigates]
+  B -->|No Fail| D[Escalations]
+  C --> E{Breach?}
+  E -->|Yes Success| F[Sanctions]
+  E -->|No Fail| G[Close]
+  F --> H[Monitor]
+  D --> I[Standards Committee<br/>Individual]
+  D --> J[CPS Private Prosecution]
+  D --> K[UN/ECtHR]
   G --> I
   G --> J
   G --> K
   H --> I
-  H --> L[Media/MP loopback<br/>Pressure PM revisit]
+  H --> L[Media loop]
   I --> M{Action?}
-  M -->|Yes| N[Oversight forces change]
-  M -->|No| O[Escalate further]
-  J --> P{CPS Yes?}
-  P -->|Yes| Q[Court conviction]
+  M -->|Yes| N[Pressure]
+  M -->|No| O[Further]
+  J --> P{Prosecute?}
+  P -->|Yes| Q[Court]
   P -->|No| O
   K --> R{Admissible?}
-  R -->|Yes| S[International judgment]
+  R -->|Yes| S[Judgment]
   R -->|No| O
   N --> L
   Q --> H
