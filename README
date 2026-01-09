@@ -1,21 +1,10 @@
-# Lisa Nandy Ministerial Code Flowchart
-
-## Diagram
+# Nandy Complaint Flowchart
 
 ```mermaid
 flowchart TD
-  A[Complaint to PM<br/>Individual] --> B{PM assesses}
-  B -->|Yes| C[Adviser investigates]
-  B -->|No| D[Escalations]
-  C --> E{Breach?}
-  E -->|Yes| F[Sanctions]
-  E -->|No| G[Close]
-  F --> H[Monitor]
-  D --> I[Standards Committee]
-  D --> J[CPS Prosecution]
-  D --> K[UN/ECtHR]
-  G --> I
-  G --> J
-  G --> K
-  H --> I
-  H --> L[Media pressure]
+A[Complaint to PM] --> B{PM assesses}
+B -->|Yes| C[Adviser]
+B -->|No| D[Escalate]
+C --> E{Breach?}
+E -->|Yes| F[Sanction]
+E -->|No| G[Close]
